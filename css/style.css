@@ -636,28 +636,28 @@ h3.my-profession
     line-height: 25px;
 }
 /* Portfolio */
-.portfolio .container
+.work .container
 {
     padding-bottom: 40px;
 }
-.portfolio .portfolio-heading
+.work .work-heading
 {
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 40px;
 }
-.portfolio .portfolio-heading h2
+.work .work-heading h2
 {
     color: var(--text-black-900);
     font-weight: 500;
 }
-.portfolio .portfolio-item
+.work .work-item
 {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
 }
-.portfolio .portfolio-item-inner
+.work .work-item-inner
 {
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
@@ -665,13 +665,13 @@ h3.my-profession
     cursor: pointer;
     text-align: center;
 }
-.portfolio .portfolio-item-inner .portfolio-img img
+.work .work-item-inner .work-img img
 {
     margin-bottom: 10px;
     width: 100%;
     display: block;
 }
-.portfolio .portfolio-item-inner .portfolio-img h3
+.work .work-item-inner .work-img h3
 {
     color: var(--text-black-900);
     font-weight: 500;
@@ -834,7 +834,7 @@ h3.my-profession
 @media (max-width:991px)
 {
     .contact .contact-item,
-    .portfolio .portfolio-item,
+    .work .work-item,
     .service .service-item
     {
         flex: 0 0 50%;
@@ -865,7 +865,7 @@ h3.my-profession
 {
     .contact .contact-form .col-6,
     .contact .contact-item,
-    .portfolio .portfolio-item,
+    .work .work-item,
     .service .service-item,
     .about .about-content .experience,
     .about .about-content .education,
